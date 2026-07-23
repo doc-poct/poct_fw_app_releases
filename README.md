@@ -51,5 +51,8 @@ maintenance SSH key. On first boot each box generates those values locally and
 starts its runtime and BLE Device Link services. Multiple nearby phones can
 connect, but the box permits only one active test. This temporary development
 onboarding mode is unauthenticated and must not be used for clinical deployment
-until encrypted multi-phone pairing is implemented. These images are not OTA
-payloads: upgrade and rollback are manual reflashes of verified images.
+until encrypted multi-phone pairing is implemented. An image is OTA eligible
+only when its manifest declares `boot_layout: poct-rpi-ab-v1`: the box verifies
+the hardware-matched immutable image, writes the inactive root, then uses a
+one-shot trial boot with health-gated commit and automatic rollback. Legacy
+single-root boxes remain manual-reflash-only.

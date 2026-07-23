@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+# This is an artifact channel, not a source repository. Keep commits clean and
+# reject accidental source/configuration additions before a public release push.
+git diff --cached --check
+while IFS= read -r path; do
+  case "$path" in
+    .githooks/pre-commit|README.md|CHANGELOG.md|releases/*|metadata/*|checksums/*|sbom/*|provenance/*|*.apk|*.sha256|*.img.xz|*.img.xz.sha256|*.tar.zst|*.tar.zst.sha256) ;;
+    *) echo "release channel rejects unexpected tracked file: $path" >&2; exit 1 ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACMR)
