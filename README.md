@@ -24,3 +24,17 @@ public Releases API and downloads APKs without a GitHub access token.
 
 Firmware artifacts will use their own namespaced tags and compatibility
 metadata when that workflow is defined.
+
+## POCT factory firmware images
+
+The box source repository publishes generic DietPi factory images from
+`firmware-vMAJOR.MINOR.PATCH` source tags. Each immutable `firmware-vVERSION`
+release includes a Pi Zero 2W image and a Pi 5 compatibility/backup image, plus
+their checksums, build manifests, and package inventories.
+
+Factory images are deliberately unprovisioned: they contain no box identity,
+product secret, OTA key, or maintenance SSH key, and POCT runtime services are
+disabled. Manufacturing must provision every unit offline before enabling its
+services. These images are not OTA payloads: upgrade and rollback are manual
+reflashes of verified factory images. They are not stable field releases until
+the hardware and rollback acceptance gates are complete.
