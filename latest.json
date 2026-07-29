@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "channel": "stable",
+  "tag_name": "app-v1.7.5+10705999",
+  "version_name": "1.7.5",
+  "version_code": 10705999,
+  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.7.5%2B10705999/JeevDristi-1.7.5-release.apk",
+  "sha256": "09a98a4d2902658da26f0c33d19adf94fa385c364448fe78cbc07949902ecb1e",
+  "published_at": "2026-07-29T06:04:50Z"
+}
