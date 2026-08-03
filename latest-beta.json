@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "tag_name": "app-v1.7.7-beta.94+10707094",
-  "version_name": "1.7.7-beta.94",
-  "version_code": 10707094,
-  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.7.7-beta.94%2B10707094/JeevDristi-1.7.7-beta.94-release.apk",
-  "sha256": "94963cd2e30e85500d70f35a3d43b0f63d3fb5b6edd6b942ecb05d67b4d2f587",
-  "published_at": "2026-08-03T06:25:54Z"
+  "tag_name": "app-v1.7.8-beta.95+10708095",
+  "version_name": "1.7.8-beta.95",
+  "version_code": 10708095,
+  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.7.8-beta.95%2B10708095/JeevDristi-1.7.8-beta.95-release.apk",
+  "sha256": "9b0ae49423cf81e8c7772e8a29304e4bcd5ba6d0684aff658ce5b571fc099e42",
+  "published_at": "2026-08-03T06:36:57Z"
 }
