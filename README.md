@@ -56,21 +56,3 @@ only when its manifest declares `boot_layout: poct-rpi-ab-v1`: the box verifies
 the hardware-matched immutable image, writes the inactive root, then uses a
 one-shot trial boot with health-gated commit and automatic rollback. Legacy
 single-root boxes remain manual-reflash-only.
-
-## Sicklesense Windows bridge releases
-
-The private `poct_desktop_bridge` source repository publishes immutable
-`bridge-vMAJOR.MINOR.PATCH` releases only after the coordinated JeevDristi
-protocol version and supported-phone matrix have passed physical USB testing.
-Each release contains:
-
-- `SicklesenseBridge-VERSION-x64.msi`, Authenticode-signed for Windows 11 x64
-  and Windows 10 x64 with current ESU security updates;
-- the hardware-ID-scoped, signed driver package and catalog used by the MSI;
-- SHA-256 checksums, an SBOM, build provenance, and a compatibility manifest;
-- the supported Windows versions, JeevDristi version range, Phone Export Link
-  protocol range, and the exact certified phone models/Android versions.
-
-An empty or development-only compatibility manifest is not releasable. The
-installer must not contain patient data, shared pairing material, signing keys,
-or a broad USB-class filter, and it must preserve charging and MTP behavior.
