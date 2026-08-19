@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "notes": "Initial SCD Terminal release scaffold — replace after first build.",
-  "pub_date": "2026-08-19T00:00:00Z",
+  "notes": "JeevDristi SCD Terminal v0.1.0",
+  "pub_date": "2026-08-19T08:28:52Z",
   "platforms": {
     "linux-aarch64": {
       "signature": "",
