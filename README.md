@@ -56,3 +56,31 @@ only when its manifest declares `boot_layout: poct-rpi-ab-v1`: the box verifies
 the hardware-matched immutable image, writes the inactive root, then uses a
 one-shot trial boot with health-gated commit and automatic rollback. Legacy
 single-root boxes remain manual-reflash-only.
+
+## SCD Diagnostic Terminal releases
+
+The `poct_scd_terminal` source repository publishes Raspberry Pi 5 kiosk images
+and Tauri application updates from `scd-terminal-vMAJOR.MINOR.PATCH` tags.
+
+### Kiosk device images
+
+Flash-ready DietPi RPi5 images that boot directly into the JeevDristi Single-Cell
+SCD Diagnostic Terminal using Cage (Wayland kiosk compositor). Each release
+includes:
+
+- `poct-scd-terminal-VERSION-dietpi-rpi5-arm64.img.xz` — compressed device image
+- Matching `.sha256` and `.manifest.json` files
+- `.packages.tsv` — installed package inventory
+
+### Tauri application updates
+
+The kiosk app supports in-app self-update via the Tauri v2 updater plugin.
+Each release additionally includes:
+
+- `poct_scd_terminal-VERSION-aarch64.tar.gz` — portable app bundle
+- Matching `.sig` — Ed25519 update signature
+
+The installed app checks `scd-terminal-latest.json` in this repository for
+available updates. When a new version is found, it downloads the signed bundle,
+verifies the signature, replaces the binary, and restarts. Full device images
+are published less frequently; app-only updates are the primary update path.
