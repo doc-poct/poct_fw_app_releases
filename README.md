@@ -12,7 +12,8 @@ through GitHub Actions:
 - Stable source tag: `vMAJOR.MINOR.PATCH`
 - Stable distribution tag: `app-vMAJOR.MINOR.PATCH+VERSION_CODE`
 - Beta distribution tag: `app-vMAJOR.MINOR.PATCH-beta.BUILD+VERSION_CODE`
-- APK: `JeevDristi-VERSION-release.apk` (or a versioned beta equivalent)
+- APK: `JeevDristi-VERSION-release.apk` (or a versioned beta equivalent),
+  built for `arm64-v8a` only; other Android ABIs are unsupported
 - Integrity: matching `.apk.sha256` asset and GitHub release-asset SHA-256 digest
 - Metadata: stable releases include a JSON record with the source repository,
   source commit, source tag, build number, toolchain, platform, architecture,
