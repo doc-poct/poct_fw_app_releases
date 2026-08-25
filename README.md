@@ -40,6 +40,12 @@ signature, activates its inactive slot, and removes those credentials on every
 terminal path. Release assets must never contain device configuration, OTA
 private keys, source credentials, or patient data.
 
+The Flutter app discovers the newest firmware from `firmware-latest.json` on
+the raw public repository, rather than GitHub's Releases API. The small mutable
+manifest contains only schema version, immutable `firmware-v*` tag, display
+name, and publication time; the box still resolves, verifies, and downloads the
+signed release assets itself.
+
 ## POCT public firmware images
 
 The box source repository publishes generic DietPi flash-and-connect images from
