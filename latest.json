@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "channel": "stable",
-  "tag_name": "app-v1.12.2+11202999",
-  "version_name": "1.12.2",
-  "version_code": 11202999,
-  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.12.2%2B11202999/JeevDristi-1.12.2-release.apk",
-  "sha256": "ac825cdfc982ea7eaa6f3a502b16392c66ee87a26a25ae9ae983a481aa5f41d2",
-  "published_at": "2026-08-26T20:42:16Z",
-  "release_notes": "Stable JeevDristi Android release built from `doc-poct/poct_app_flutter@20b841416e3ab6c132d853f273f13bdbdebac075` (`v1.12.2`).\n\nAndroid version code: `11202999`\nArchitecture: `arm64-v8a` only (other Android ABIs are unsupported)\n"
+  "tag_name": "app-v1.13.0+11300999",
+  "version_name": "1.13.0",
+  "version_code": 11300999,
+  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.13.0%2B11300999/JeevDristi-1.13.0-release.apk",
+  "sha256": "3120bbc118e8449ead0c2e781bdaa0d2a81d6b86e1775db3e1be890573f843d9",
+  "published_at": "2026-08-31T01:30:28Z",
+  "release_notes": "Stable JeevDristi Android release built from `doc-poct/poct_app_flutter@9cd1a5f76392ebfba42f89cd4694cdb3c4039231` (`v1.13.0`).\n\nAndroid version code: `11300999`\nArchitecture: `arm64-v8a` only (other Android ABIs are unsupported)\n"
 }
