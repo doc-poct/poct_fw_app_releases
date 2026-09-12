@@ -91,3 +91,13 @@ The installed app checks `scd-terminal-latest.json` in this repository for
 available updates. When a new version is found, it downloads the signed bundle,
 verifies the signature, replaces the binary, and restarts. Full device images
 are published less frequently; app-only updates are the primary update path.
+
+## Native Android candidate (publication deferred)
+
+The private doc-poct/poct_app_jeevdristi repository prepares unsigned ARM64 beta
+artifacts in private CI. Public native publication remains disabled until its
+signing and release gates are configured. Its reserved tags are
+native-app-vMAJOR.MINOR.PATCH-beta.N+VERSION_CODE, with native-latest-beta.json
+reserved for the new in.ac.iitbhilai.jeevdristi application identity.
+Flutter app-v* tags and latest.json/latest-beta.json remain unchanged. No native
+clinical compatibility or cutover is established by this preparation.
