@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "channel": "beta",
-  "tag_name": "app-v1.15.0-beta.290+11500290",
-  "version_name": "1.15.0-beta.290",
-  "version_code": 11500290,
-  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.15.0-beta.290%2B11500290/JeevDristi-1.15.0-beta.290-release.apk",
-  "sha256": "2c76912f3ee214d91ce301c5d6908a1d6d79ff7f70285b40ca935b3693184c54",
-  "published_at": "2026-09-16T17:47:51Z",
-  "release_notes": "Beta JeevDristi Android build from `doc-poct/poct_app_flutter@d28372a0e46ed074f49cfd0101e45da5de64dd30`.\n\nArchitecture: `arm64-v8a` only (other Android ABIs are unsupported)\n\nThis is an early-access build signed with the production update key so beta-channel users can install it over an existing release.\n"
+  "tag_name": "app-v1.15.0-beta.291+11500291",
+  "version_name": "1.15.0-beta.291",
+  "version_code": 11500291,
+  "apk_url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/app-v1.15.0-beta.291%2B11500291/JeevDristi-1.15.0-beta.291-release.apk",
+  "sha256": "5e24dc925694db5220d9ce8da14675d088ee7c1b1eef51be9d5dfe5123dead99",
+  "published_at": "2026-09-16T18:52:56Z",
+  "release_notes": "Beta JeevDristi Android build from `doc-poct/poct_app_flutter@1e9f9eef05469542b8ec61ec007a317784b5aec8`.\n\nArchitecture: `arm64-v8a` only (other Android ABIs are unsupported)\n\nThis is an early-access build signed with the production update key so beta-channel users can install it over an existing release.\n"
 }
