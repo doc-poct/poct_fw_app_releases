@@ -1,15 +1,19 @@
 {
-  "version": "0.2.4",
-  "notes": "JeevDristi SCD Terminal v0.2.4",
-  "pub_date": "2026-09-17T07:15:44Z",
+  "version": "0.2.5",
+  "notes": "JeevDristi Single-Cell SCD Diagnostic Terminal v0.2.5.\n- CI/CD build performance optimizations (ThinLTO, Blacksmith high-vCPU runners, multi-tier dependency caching).\n- Trial evaluation mode initialized (28 days).\n- Mandatory in-app force-update modal dialog.",
+  "pub_date": "2026-09-17T12:55:00Z",
   "platforms": {
     "linux-aarch64": {
       "signature": "",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.4/poct_scd_terminal-0.2.4-aarch64.tar.gz"
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.5/poct_scd_terminal-0.2.5-aarch64.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.5/poct_scd_terminal-0.2.5-x86_64.tar.gz"
     },
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.4/poct-scd-terminal-0.2.4-windows-x64-setup.exe"
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.5/poct-scd-terminal-0.2.5-windows-x64-setup.exe"
     }
   }
 }
