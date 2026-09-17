@@ -1,15 +1,11 @@
 {
   "version": "0.2.4",
-  "notes": "JeevDristi Single-Cell SCD Diagnostic Terminal v0.2.4.\n- Trial evaluation mode initialized (28 days).\n- Mandatory in-app force-update modal dialog.\n- Real-time cell morphology classification and ONNX tensor acceleration.",
-  "pub_date": "2026-09-17T12:30:00Z",
+  "notes": "JeevDristi SCD Terminal v0.2.4",
+  "pub_date": "2026-09-17T07:15:44Z",
   "platforms": {
     "linux-aarch64": {
       "signature": "",
       "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.4/poct_scd_terminal-0.2.4-aarch64.tar.gz"
-    },
-    "linux-x86_64": {
-      "signature": "",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.4/poct_scd_terminal-0.2.4-x86_64.tar.gz"
     },
     "windows-x86_64": {
       "signature": "",
