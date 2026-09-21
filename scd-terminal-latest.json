@@ -1,15 +1,15 @@
 {
-  "version": "0.2.7",
-  "notes": "JeevDristi SCD Terminal v0.2.7",
-  "pub_date": "2026-09-21T08:44:09Z",
+  "version": "0.2.8",
+  "notes": "JeevDristi SCD Terminal v0.2.8",
+  "pub_date": "2026-09-21T09:16:34Z",
   "platforms": {
     "linux-aarch64": {
       "signature": "",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.7/poct_scd_terminal-0.2.7-aarch64.tar.gz"
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.8/poct_scd_terminal-0.2.8-aarch64.tar.gz"
     },
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.7/poct-scd-terminal-0.2.7-windows-x64-setup.exe"
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.8/poct-scd-terminal-0.2.8-windows-x64-setup.exe"
     }
   }
 }
