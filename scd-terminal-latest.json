@@ -1,15 +1,15 @@
 {
-  "version": "0.2.17",
-  "notes": "JeevDristi SCD Terminal v0.2.17",
-  "pub_date": "2026-09-21T15:15:39Z",
+  "version": "0.2.18",
+  "notes": "JeevDristi SCD Terminal v0.2.18",
+  "pub_date": "2026-09-21T16:58:00Z",
   "platforms": {
     "linux-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUak40UDVnVFdjRVpad0RYaHgyRWJxQnQ0b05Hc1BjTkR4a09DME56WWwzcTMyZmt4aWo1UkppUE5seEsxZk5zMkE5ZHRPZVZDUjhKWUprb0dFKzJVRlMwM0ZSZUkrZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDAzMzc1CWZpbGU6U2lja2xlc2Vuc2UgVGVybWluYWxfMC4yLjE3X2FybTY0LmRlYgptVitoTmxPMFFvNTZjb1lMbnB3NmtncVZjVVpNbWkwN0dZemV3dUFzOTVqb3ZnYXVxZmpvU2NXdHl6UmI0WmtYUi8wdHp3aCt6akcrUW9aYUNLaFhCQT09Cg==",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.17/poct_scd_terminal-0.2.17-aarch64.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUak40UDVnVFdjRVNGRG1Bd25zUVRuYSs0ZERYaEhRWFRSWWJScTFqTjFBSXVzS1poajAya0Qwc2RVb0lWRzlPcVJzUmtlZ0VTRmZpa2lhbk9JRnhvd3Z2UFZkblVKK1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDA5NTA4CWZpbGU6U2lja2xlc2Vuc2UgVGVybWluYWxfMC4yLjE4X2FybTY0LmRlYgpsRUFGTWUvb3ZCMHFxSE5NbUxLTFZyb0lOQk10Rk4yZDZNSEV2UTNFYkpGSG04NWY4NTlIN29DUTZoZWpJUnB2NlBRMTdEdWJIeHJMV29vTG5oKzRCdz09Cg==",
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.18/poct_scd_terminal-0.2.18-aarch64.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUak40UDVnVFdjRWZQZXBtRnB3WE9IUjYvQzJhTFp1NVREWWhWTk5ZaWUzRzFQZG5oWkRPLytnOXQ1L3NLZG1kTkhPVldLa2ROWmVqOXc2elRsSTFsM1M3aTgxNWJIb1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDAzMzIwCWZpbGU6U2lja2xlc2Vuc2UgVGVybWluYWxfMC4yLjE3X3g2NC1zZXR1cC5leGUKQ2VhemxyZGROaUZoYzdJbmNtSHA0L1VtZ2NhK3hKM3RYV3JENEQvSkc1YXVwMFNVanY2VkdnQUlzaTJDVXJXaVFKYkVwbXlLbTJwVHdlS2xYOXNhQ1E9PQo=",
-      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.17/poct-scd-terminal-0.2.17-windows-x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUak40UDVnVFdjRVU2WEFzekJBZFpkbWZHbjNqdmtyd0hEZzhhSVZzYm1LZkxqdkRScVlHVTFZUDdELzIzQTVacFlneTRHQ3dTQXYyQThZbTJ3WVMzc2ZvV1kyUzVPYWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDA5NTAxCWZpbGU6U2lja2xlc2Vuc2UgVGVybWluYWxfMC4yLjE4X3g2NC1zZXR1cC5leGUKenB0dHBDV3VSRDhHSlFDL0gzS0xjaXFWOXlhT3VQeHJ0WTNXYjFjckQyZVJwTzhIWldLR0NMdDlqSFd5R1hzUnhwc2UwWmlwbGN3UlNoUmlVbjhIQUE9PQo=",
+      "url": "https://github.com/doc-poct/poct_fw_app_releases/releases/download/scd-terminal-v0.2.18/poct-scd-terminal-0.2.18-windows-x64-setup.exe"
     }
   }
 }
